@@ -1,0 +1,180 @@
+
+	html, body{
+  margin: 0;
+	}
+	body{
+		margin:0px;
+		padding: 0;
+		font-family:Sans-serif;
+		color: #780BCD;
+		background: #F0F0F0;
+			}
+	body::-webkit-scrollbar {
+	  width: 7px;              
+	}
+
+	body::-webkit-scrollbar-track {
+	  background:transparent;        
+	}
+
+	body::-webkit-scrollbar-thumb {
+	  background-color:#737373;    
+	  border-radius: 10px;       
+	  border: 0 solid transparent;  
+	}
+	header{
+		padding:40px;
+		background-color:#780BCD;
+		height:50px;
+		
+	}
+
+	a{
+		text-decoration:none;
+		color:#780bcd;
+		font-family:montserrat,verdana;
+		
+	}
+
+
+	table tr {
+		
+		padding-bottom:30px;
+		height:20px;
+		font-size:20px;
+		background-color:#fff;
+		}
+		
+		td{
+		
+		align-items:left;
+		padding:5px;
+		border-radius:30px;
+		padding-left:16px;
+		padding-right:16px;
+		
+	}
+		
+
+	#divBusca{
+		margin:2px;
+		position:absolute;
+		left:800px;
+		background:#fff;
+		border:hidden;
+		border-radius:35px;
+		width:500px;
+		
+	}
+	
+
+	#txtBusca{
+		text-align:left;
+		float:center;
+		background-color:transparent;
+		padding-left:200px;
+		font-style:italic ;
+		font-size:20px;
+		border:hidden;
+		height:32px;
+		width:260px;
+		
+	}
+	
+	#btnBuscar {
+		float:right;
+		position:center;
+		padding:5px;
+		align-items:middle;
+		display: flex;
+        justify-content: center;
+       align-items: center;
+	   
+	}
+
+	.faixa ul li {
+		display: inline-block;
+		padding-left:30px;
+		padding-right: 60px;
+		padding:10px;
+		
+	}
+	
+	.faixa img{
+		border-radius:30px;
+		
+	}
+	
+	.nov ul li {
+		display: inline-block;
+		padding-left:30px;
+		padding-right: 60px;
+		padding:10px;
+		font-family:Sans-serif;
+		
+	}
+	
+	.nov img{
+		margin-top:30px;
+		border-radius:30px;
+	}
+	
+	.nov p{
+		font-family:Sans-serif;
+		font-size:10px;
+	}
+	
+	.jogos ul li {
+		margin-top:100px;
+		display: inline-block;
+		padding-left:30px;
+		padding-right: 60px;
+		padding:20px;
+	}
+	.jogos img{
+		border-radius:30px;
+		
+	}
+	
+	.texto {
+		margin-left:50px;
+		font-family:sans-serif;
+		font-size:30px;
+	
+	}
+	
+	
+			
+	
+	.carrosel {
+		
+	}
+
+	/*rodape fica aqui*/
+			footer{
+				margin-top: 320px;
+				margin-bottom:;
+				background-image: linear-gradient(to right, #150632,  #780BCD);
+				
+			}
+			.container a:link{
+				color:white;
+				text-decoration: none;
+			}
+			.container a:visited{
+				color:#780BCD;
+				text-decoration: none;
+			}
+			.container a:hover{
+				color:#780BCD;
+				text-decoration: none;
+			}
+			.container a:active{
+				color: #fff;
+				text-decoration: none;
+			}
+
+		
+
+
+		
